@@ -1,0 +1,26 @@
+{
+    "name": "laravel-shift/console",
+    "type": "library",
+    "description": "A set of commands to keep your Laravel applications fresh.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "illuminate/console": "^6.0",
+        "illuminate/support": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shift\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shift\\ServiceProvider"
+            ]
+        }
+    }
+}
