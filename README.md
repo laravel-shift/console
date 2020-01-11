@@ -17,7 +17,7 @@ Shift Console requires a Laravel application running version 6.0 or higher. **No
 Currently, the Shift Console includes set `artisan` commands under the `shift` namespace. Currently, there is only one command - `shift:check-routes`.
 
 ```sh
-php artisan shift:build
+php artisan shift:check-routes
 ```
 
 This command checks for _Dead Routes_ by reviewing your application routes for references to undefined controllers, methods, or invalid visibility.
