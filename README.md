@@ -1,3 +1,10 @@
+**Archived**
+
+This project has been archived as its features have been superseded by the [Shift Workbench](https://laravelshift.com/workbench/).
+
+---
+
+
 # Shift - Console
 A set of useful `artisan` commands to keep your Laravel applications fresh.
 
